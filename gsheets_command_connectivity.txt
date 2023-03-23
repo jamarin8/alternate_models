@@ -1,0 +1,32 @@
+python -m venv .venv
+source .venv/bin/activate
+https://docs.google.com/spreadsheets/d/1I1Pb6b6Xh4SsrAqJxt8izSyrZRMYqikl7vCD08jBsrg/edit#gid=0
+pip install openpyxl==3.0.10
+import dataintake
+!pip install git+https://github.com/jamarin8/gauntlet.git
+import gauntlet
+
+    3  ssh-keygen
+    4  cd /home/sagemaker-user/.ssh/
+    5  ls
+    6  vi id_rsa
+    7  vi id_rsa.pub
+    8  ls
+    9  pwd
+   10  git clone git@github.com:amount/fraud-model-6.0.0.git
+   11  ls
+   12  cd ..
+   13  ls
+   14  mkdir fraud_models
+   15  mv /home/sagemaker-user/.ssh/fraud-model-6.0.0/ ~/fraud_models/
+   16  cd fraud_models/
+   17  ls
+   18  cd fraud-model-6.0.0/
+   19  l
+   20  ls
+   21  ls -la
+   22  get status
+   23  git status
+   24  git branch xgboost_jam
+   25  git checkout xgboost_jam
+   26  git status
